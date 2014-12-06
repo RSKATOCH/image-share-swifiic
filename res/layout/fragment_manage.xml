@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#345345"
+    android:layout_height="match_parent"
+	android:orientation="vertical"    
+>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<TextView
+    android:id="@+id/DeviceID"
+	android:text="Device ID"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#BCCACB"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    android:background="#C04000"
+    ></View>
+<TextView
+    android:id="@+id/DeviceIDValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    />    
+    
+</LinearLayout>    
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<TextView
+    android:id="@+id/Points"
+	android:text="Points"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#BCCACB"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    android:background="#C04000"
+    ></View>
+<TextView
+    android:id="@+id/PointsValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    />    
+    
+</LinearLayout>  
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<TextView
+    android:id="@+id/Uploads"
+	android:text="Number of uploads"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#BCCACB"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    android:background="#C04000"
+    ></View>
+<TextView
+    android:id="@+id/UploadsValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    />    
+    
+</LinearLayout>  
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<TextView
+    android:id="@+id/FirstName"
+	android:text="First Name"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#BCCACB"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    android:background="#C04000"
+    ></View>
+<TextView
+    android:id="@+id/EmptyFirstName"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    />    
+   <EditText
+    android:id="@+id/FirstNameValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    android:hint="Enter your first name"
+    android:visibility="gone"
+    />
+    
+</LinearLayout>  
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<TextView
+    android:id="@+id/LastName"
+	android:text="Last Name"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#BCCACB"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    android:background="#C04000"
+    ></View>
+<TextView
+    android:id="@+id/EmptyLastName"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    />    
+<EditText
+    android:id="@+id/LastNameValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:background="#C04000"
+    android:hint="Enter your last name"
+    android:visibility="gone"
+    />
+    
+</LinearLayout>  
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_gravity="center_horizontal"
+	android:paddingLeft="20dp"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+   >
+<Button 
+    android:id="@+id/FillDetails"
+    android:text="Fill Details"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+<Button 
+    android:id="@+id/SubmitDetails"
+    android:text="Submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    />
+<View
+    android:layout_width="10dp" 
+    android:layout_height="match_parent"
+    ></View>
+<Button 
+    android:id="@+id/GetPoints"
+    android:text="Get Points"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>  
+
+</LinearLayout>
